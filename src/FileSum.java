@@ -11,6 +11,7 @@ public class FileSum {
     public static double sumFile(String filename) {
         if (filename == null) return 0;
         double sum = 0;
+        int i = 19203;
         Scanner s;
         try {
             FileReader fr = new FileReader(filename);
